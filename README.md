@@ -16,3 +16,4 @@ module "docker_instance" {
     source = "okfatih/docker-instance/aws"
     key_name = "LinuxPracticeKey"
 }
+```
