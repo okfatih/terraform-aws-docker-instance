@@ -14,6 +14,6 @@ provider "aws" {
 
 module "docker_instance" {
     source = "okfatih/docker-instance/aws"
-    key_name = "LinuxPracticeKey"
+    key_name = string
 }
 ```
